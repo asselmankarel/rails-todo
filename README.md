@@ -3,6 +3,6 @@
 ## basic setup
 
 1. rails new rails-todo --webpack=vue --database=postgresql
-2. Add devise & generate user model
-3. Add devise-jwt
-4. Todo model
+2. Added gems: devise, jwt, bcrypt
+3. rails g devise:install
+4. User model
