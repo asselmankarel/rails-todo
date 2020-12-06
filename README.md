@@ -1,24 +1,8 @@
-# README
+# Rails todo api with vue front-end
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## basic setup
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. rails new rails-todo --webpack=vue --database=postgresql
+2. Add devise & generate user model
+3. Add devise-jwt
+4. Todo model
